@@ -3,9 +3,9 @@ Overview
 
 This is boilerplate project for running Swagger UI with Webpack. It exists because:
 
-* I wanted an easy way of slamming multiple API specifications into a Swagger UI-based project
-* Using NPM/Webpack means my dependencies can be kept up-to-date easily
-* I like it
+* I wanted an easy way of slamming multiple API specifications into a Swagger UI-based project and running it locally.
+* I didn't wanted to manually change the Javascript every time I added an API specification.
+* Using NPM/Webpack means my dependencies can be kept up-to-date easily.
 
 Sure there's other ways of doing this, but still...
 
