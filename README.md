@@ -18,7 +18,7 @@ To use this project clone and cd into it then:
 
 ```bash
 npm i
-cp [your Swagger/OpenAPI specifcations as YAML] src/specs
+cp [your Swagger/OpenAPI specifications as YAML] src/specs
 npm run dev
 ```
 
