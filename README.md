@@ -7,7 +7,7 @@ This is boilerplate project for running Swagger UI with Webpack. It exists becau
 * Using NPM/Webpack means my dependencies can be kept up-to-date easily
 * I like it
 
-There's also a Redoc page - although this is CDN-based as I am lazy.
+-There's also a Redoc page - although this is CDN-based as I am lazy.- I removed the Redoc version for the time being.
 
 Usage
 ===
