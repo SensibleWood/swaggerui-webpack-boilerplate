@@ -1,12 +1,7 @@
 window.onload = function() {
   // Build a system
   const ui = SwaggerUIBundle({
-    urls: [
-  {
-    "name": "Boilerplate",
-    "url": "swagger.yaml"
-  }
-],
+    urls: [],
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
