@@ -1,22 +1,30 @@
 Overview
 ===
 
-This is boilerplate project for running Swagger UI with Webpack. I created it as I wanted a simple way of bundling Swagger UI and API specifications into a runnable project.
+This is boilerplate project for running Swagger UI with Webpack. It exists because:
 
-Sure there's other ways of doing it, but still...
+* I wanted an easy way of slamming an API specification into a Swagger UI project
+* Using NPM/Webpack means my dependencies can be kept up-to-date easily
+* I like it
+
+There's also a Redoc page - although this is CDN-based as I am lazy.
 
 Usage
 ===
 
-To use this project:
+To use this project clone and cd into it then:
 
-* Copy YAML-encoded Swagger/OpenAPI files to `src/specs`
-* `npm i`
-* `npm run dev`
+```bash
+npm i
+cp [your Swagger/OpenAPI spec as YAML] src/specs/swagger.yaml
+npm run dev
+```
 
 :thumbsup:
 
 Improvements
 ===
 
-[ ] Convert the rewrite-urls.js script to a Webpack plugin
+* [ ] Parameterise API specification document name.
+* [ ] Refactor `scripts/rewrite-urls.js` as a Webpack plugin.
+
